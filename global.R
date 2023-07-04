@@ -3,7 +3,7 @@
 app_title <-'凯润制造执行系统MES6.0';
 
 # store data into rdbe in the rds database
-app_id <- 'dmsDemo'
+app_id <- 'krmes'
 #upload all the library
 
 #设置链接---
@@ -11,6 +11,8 @@ app_id <- 'dmsDemo'
 
 #后续使用token取代数据库的配置文件
 erp_token ='C0426D23-1927-4314-8736-A74B2EF7A039'
+
+dms_token = 'F664DBC5-DA16-457B-A857-9E89A71D11C6'
 
 tstk::import(app_id = app_id)
 
